@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/images/background_pic2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar{
+  width: 85%;
+  margin:auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 150px;
+  height: 70px;
+  cursor: pointer;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: red;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+width: 100%;
+}
+/*--Home--*/
+.Home_page{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+.common-btn{
+  padding: 18px 40px;
+  background: transparent;
+  outline: none;
+  border: 2px solid rgb(175, 111, 111);
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
+.Home_page h1{
+  font-size: 70px;
+  margin-top: 80px;
+}
+.Home_page p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 40px;
+  color: whitesmoke;
+}
+/*--About--*/
+.about-section{
+   width: 100%;
+   height: 100vh;
+  position: relative;
+  text-align: center;
+  color:#fff;
+  padding: 40px;
+  margin: 20px;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/images/background_pic2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.about-section h2{
+  font-size: 30px;
+  margin-top: 40px;
+}
+.about-section h3{
+ font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about-section p{
+   margin: 20px auto;
+  font-weight: 80;
+  line-height: 30px;
+}
+.Owner-photo img{
+  height: 150px;
+  width: 150px;
+}
+.Owner-photo h2{
+  display: inline-block;
+  margin-left: 40px;
+}
+/*--Services--*/
+
+#Services{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-size: cover;
+  background-position: center;
+  }
+   .Services-section{
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 25px;
+   
+ }
+  .Services-section img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+    }
+    #Services h2{
+      margin: 30px;
+  font-size: 40px;
+  margin-top: 40px;
+  color:black;
+   text-transform: uppercase;
+   text-align: center;
+    }
+    /*--Contact--*/
+   
+     #Contact-section{
+      width: 100%;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 25px; 
+     }
+    .Container contact-row h1{
+    margin: 50px;
+    font-size: 30px;
+    margin-top: 30px;
+    color:black;
+   text-transform: uppercase;
+    }
+    form{
+      max-width: 400px;
+      margin: 30px 0;
+    }
+    form input{
+      width: 100%;
+      padding: 10px 10px;
+      margin-bottom: 5px;
+      outline: none;
+      box-shadow: none;
+      box-sizing: border-box;
+      border: 2px solid #fab3c4;
+    }
+   .btn-box{
+    width: 100%  ;
+    display: flex;
+    justify-content: space-between;
+   }
+   .btn-box button{
+    flex-basis: 48%;
+    padding: 18px 0;
+   }
+   
+  
